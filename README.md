@@ -93,6 +93,17 @@ For a more specific list of dependencies, please read the composer.json file.
 
 
 
+## Further documentation
+
+Here are a list of documentation you should reference when writing an application using this skeleton.
+
+- [Twig documentation](http://twig.sensiolabs.org/documentation)
+- [Slim Framework documentation](http://docs.slimframework.com/)
+- [RedBean ORM Documentation](http://www.redbeanphp.com/)
+- [Composer Documentation](https://getcomposer.org/doc/01-basic-usage.md)
+
+
+
 ### See any mistakes?
 
 If you see a horrible mistake or a bad practice in any of my code, feel free to create an issue on GitHub explaining it to me and I will fix it, or submit a Pull Request, documentation on how to do this is available [here](https://help.github.com/articles/using-pull-requests/).
