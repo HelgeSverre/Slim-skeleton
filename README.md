@@ -41,14 +41,6 @@ All configuration variables like database credentials and any custom configurati
 Here is the default configuration:
 
 ```ini
-; Application Configuration
-[application]
-app_name = "Slim Skeleton App"
-app_version = "1.0.0"
-app_author = "Helge Sverre"
-app_website = "https://helgesverre.com"
-
-
 ; Database Configuration
 [database]
 db_host = "localhost"
