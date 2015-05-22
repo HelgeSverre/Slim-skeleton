@@ -35,8 +35,25 @@ Composer will then create the vendor/ folder, download any dependecies and gener
 
 All configuration variables like database credentials and any custom configuration you might want to set, should be put in the config file here:
 
-```
-/app/config.ini
+``` /app/config.ini ```
+
+Here is the default configuration:
+
+```ini
+; Application Configuration
+[application]
+app_name = "Slim Skeleton App"
+app_version = "1.0.0"
+app_author = "Helge Sverre"
+app_website = "https://helgesverre.com"
+
+
+; Database Configuration
+[database]
+db_host = "localhost"
+db_name = "databasename"
+db_user = "root"
+db_pass = "password"
 ```
 
 this file is not publicly accesible if you set up your hosting environment properly (Having the /public directory as the document root).
@@ -71,10 +88,10 @@ require 'routes/hello.php';
 - Slim Views
 - Twig
 
-For a more specific list of dependancies, please read the composer.json file.
+For a more specific list of dependencies, please read the composer.json file.
 
 
 
-### See any mistakes
+### See any mistakes?
 
 If you see a horrible mistake or a bad practice in any of my code, feel free to create an issue on GitHub explaining it to me and I will fix it, or submit a Pull Request, documentation on how to do this is available [here](https://help.github.com/articles/using-pull-requests/).
