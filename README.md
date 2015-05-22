@@ -78,7 +78,7 @@ If you create a new route, you have to add it manually to the routes.php file in
 
 require 'routes/hello.php';
 
-
+?>
 ```
 
 
@@ -107,3 +107,13 @@ Here are a list of documentation you should reference when writing an applicatio
 ### See any mistakes?
 
 If you see a horrible mistake or a bad practice in any of my code, feel free to create an issue on GitHub explaining it to me and I will fix it, or submit a Pull Request, documentation on how to do this is available [here](https://help.github.com/articles/using-pull-requests/).
+
+
+
+### Recommended Services
+
+These are the services I recommend for hosting and deploying your application.
+
+- [Dploy](https://dploy.io)
+- [ServerPilot](https://serverpilot.io)
+- [DigitalOcean](https://digitalocean.com)
