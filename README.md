@@ -22,13 +22,14 @@ Composer will then create the vendor/ folder, download any dependecies and gener
 
 ## Directory Structure
 
+```
 /app - contains all application code.
    /routes - Slim framework routes
    /views - all views
    /views/master - master layouts that you can extend with twig
 /public - contains all assets, javascript and stylesheets.
 /vendor - contains dependencies handled by composer.
-
+```
 
 
 ## Configuration
