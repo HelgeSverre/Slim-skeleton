@@ -24,12 +24,15 @@ $view->parserExtensions = array(
 $app->config = parse_ini_file("../app/config.ini");
 
 
+
 // Setup the database connection using ReadBean ORM
- R::setup(
-	"mysql:host={$app->config['database']['db_host']};dbname={$app->config['database']['db_name']}",
-	"{$app->config['database']['db_user']}",
-	"{$app->config['database']['db_pass']"
+RedBeanPHP\R::setup(
+	"mysql:host={$app->config['db_host']};dbname={$app->config['db_name']}",
+	$app->config['db_user'],
+	$app->config['db_pass']
 );
+
+
 
 
 // Routes file
