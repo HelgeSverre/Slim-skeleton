@@ -8,7 +8,7 @@ It is based on PHPAcademy's "Simple blog with slim framework" video.
 
 ## Install
 
-To install Slim-Skeleton type the following into the command line (If you're using Windows I recommend [Cmder](http://gooseberrycreative.com/cmder/)).
+To install Slim-Skeleton type the following into the command line (If you're using Windows I recommend [Cmder](http://cmder.net/)).
 
 ```
 git clone https://github.com/HelgeSverre/Slim-skeleton.git
