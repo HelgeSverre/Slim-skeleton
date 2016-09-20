@@ -1,3 +1,7 @@
+
+*** Don't use this, it's outdated ***
+
+
 # Slim Skeleton Application
 
 This repo is meant to be a Skeleton, Blueprint for setting up a new Slim Framework application, just clone the repo and you're ready to roll.
