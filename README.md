@@ -1,5 +1,5 @@
 
-*** Don't use this, it's outdated ***
+***Don't use this, it's outdated***
 
 
 # Slim Skeleton Application
